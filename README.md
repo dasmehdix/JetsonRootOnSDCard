@@ -1,5 +1,5 @@
 # JetsonRootOnSDCard
-This repo made for eMMC mounted jetsons to root(boot) system on a SD Card. 
+This repo made for eMMC mounted Nvidia Jetsons to root(boot) system on a SD Card. 
 ### HOW
 Assume that your configuration of memory paths,
 ```(eMMC Path) root=/dev/mmcblk0p1```
@@ -28,3 +28,6 @@ APPEND fbcon=map:0 console=tty0 console=ttyS0,115200n8 androidboot.modem=none an
 ```
 SAVE IT!
 Now, you can reboot the system.
+
+## Future
+Different rooting scripts are going to be added. Also, rooting on Nvm-ssd from eMMC or SD Card will be added.
